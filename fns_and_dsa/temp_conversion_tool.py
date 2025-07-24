@@ -15,5 +15,5 @@ def main():
         tem = convert_to_fahrenheit(news)
         print(f"{news}°C is {tem}°F")
     else:
-        print("Error")
+        print("Invalid temperature. Please enter a numeric value.")
 main()
