@@ -1,6 +1,6 @@
 def safe_divide(numerator, denominator):
-    numerator = float(input("First number: "))
-    denominator = float(input("Second number: "))
+    numerator = float(numerator)
+    denominator = float(denominator)
     try:
         numerator/denominator
     except ZeroDivisionError as e:
