@@ -10,5 +10,4 @@ def safe_divide(numerator, denominator):
         print("Error: Please enter numeric values only.")
     except Exception as e:
         print(e)
-    finally:
-        print("division succesful")
+    
